@@ -43,9 +43,9 @@ void setup() {
 void loop() {
   // Some example procedures showing how to display to the pixels
   
-  colorWipe(Color(255, 0, 0), 50);
-  colorWipe(Color(0, 255, 0), 50);
-  colorWipe(Color(0, 0, 255), 50);
+  colorWipe(Color(63, 0, 0), 50);
+  colorWipe(Color(0, 63, 0), 50);
+  colorWipe(Color(0, 0, 63), 50);
 
   rainbow(50);
 
