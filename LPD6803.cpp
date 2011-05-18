@@ -24,7 +24,7 @@ enum lpd6803mode {
 
 static lpd6803mode SendMode;   // Used in interrupt 0=start,1=header,2=data,3=data done
 static byte  BitCount;   // Used in interrupt
-static byte  LedIndex;   // Used in interrupt - Which LED we are sending.
+static uint16_t  LedIndex;   // Used in interrupt - Which LED we are sending.
 static byte  BlankCounter;  //Used in interrupt.
 
 static byte lastdata = 0;
