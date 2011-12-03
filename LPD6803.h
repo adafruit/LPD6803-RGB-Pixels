@@ -1,4 +1,8 @@
-#include <WProgram.h>
+#if ARDUINO >= 100
+ #include "Arduino.h"
+#else
+ #include "WProgram.h"
+#endif
 
 class LPD6803 {
  private:
